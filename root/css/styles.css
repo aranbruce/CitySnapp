@@ -55,8 +55,14 @@ html {
 /* Tablet and Mobile */
 @media screen and (max-width: 900px) {
 
-  #navAndFirstSegmentBackground{
-    background-size: cover;
+  #bodyBackground {
+    background-size: auto;
+  }
+  #bodyBackground.bodyBackground.menuOpen {
+    background-image: none;
+    background: linear-gradient(315deg, #FE9A8B 0%, #FD868C 37.05%, #F9748F 77.56%, #F78CA0 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 1500px;
   }
 
   /*Header text on first Segment*/
@@ -524,18 +530,18 @@ body {
 }
 
 .bodyBackground{
+  background-size: 100% 700px;
   background-image: url("../images/backgroundTop.png");
   background-repeat: no-repeat;
   width: 100%;
   margin-left: 0;
   margin-right: 0;
-  background-size: contain;
 }
 
 .menuOpen{
   background-image: none;
   background: linear-gradient(315deg, #FE9A8B 0%, #FD868C 37.05%, #F9748F 77.56%, #F78CA0 100%);
-  background-size: 800px;
+  background-size: 1500px;
   background-repeat: no-repeat;
 }
 
@@ -550,10 +556,6 @@ div.nav{
   left: 0;
   right: 0;
   z-index: 1;
-}
-
-.logo {
-  height: 30px;
 }
 
 /*navBar*/
@@ -573,6 +575,7 @@ div.topNav a {
   color:white;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
+  font-weight: 400;
 }
 
 div.topNav a:hover {

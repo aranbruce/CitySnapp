@@ -48,14 +48,23 @@ $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
 	  if (scroll > 100) {
-	    $(".nav").css("background" , "white");
-      $(".topNav a").css("color", "black")
+	    $("g#Homepage").css("fill" , "#4A4A4A");
+      $(".topNav a").css("color", "#4A4A4A");
+      $(".bar1").css("background-color", "#4A4A4A");
+      $(".bar2").css("background-color", "#4A4A4A");
+      $(".bar3").css("background-color", "#4A4A4A");
+      $(".nav").css("background", "white");
+      $(".nav").css("box-shadow", "0 5px 10px rgba(155, 155, 155, 0.5)");
 	  }
 
 	  else{
+      $("g#Homepage").css("fill" , "white");
       $(".topNav a").css("color" , "white");
-      $(".nav").css("background" , "none");
-
+      $(".bar1").css("background-color", "white");
+      $(".bar2").css("background-color", "white");
+      $(".bar3").css("background-color", "white");
+      $(".nav").css("background", "none");
+      $(".nav").css("box-shadow", "none");
 	  }
   })
 })
