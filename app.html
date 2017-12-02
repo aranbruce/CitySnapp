@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+     <!--- basic page needs
+     ================================================== -->
+    <meta charset="utf-8">
+  	<title>CitySnapp</title>
+  	<meta name="description" content="">
+  	<meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- google verification
+    ================================================== -->
+    <meta name="google-site-verification" content="8d_12Soyo2h6x6qIIhLQ-kRCHO4bZQb4GZV-_o0jE9o" />
+
+    <!-- CSS
+     ================================================== -->
+     <link rel="stylesheet" href="css/styles.css">
+
+     <!-- script
+     ================================================== -->
+
+     <!-- favicons
+  	================================================== -->
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+  	<link rel="icon" href="./favicon.png" type="image/x-icon">
+</head>
+
+<body id="bodyBackground" class="bodyBackground">
+  
+  <!--Nav and the first Segment background-->
+  <div id="navAndFirstSegmentBackground">
+    <div class="navAndFirstSegmentContent">
+      <div class="nav">
+        <div class="topNav">
+          <nav class="left">
+            <a href="./index.html">CitySnapp</a>
+          </nav>
+          <nav class="right">
+            <a href="./app.html">App</a>
+            <a href="">About Us</a>
+            <a href="">Get In Touch</a>
+          </nav>
+          <div id="burger" class="burgerContainer" onclick="myFunction()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+        </div>
+      </div>
+      <!--Menu for Mobile-->
+      <div id="Menu" class="hide">
+        <ul>
+          <li class="menuLinks"><a href="./index.html">Home</a></li>
+          <li class="menuLinks"><a href="./app.html">App</a></li>
+          <li class="menuLinks"><a href="">About Us</a></li>
+          <li class="menuLinks"><a href="">Get In Touch</a></li>
+        </ul>
+      </div>
+      <!--hide on menu close-->
+          <!--first Segment-->
+          <div class="firstSegment" id="firstSegment">
+            <div class="headerText">
+              <p>
+                We want to create…
+              </p>
+              <h1>
+                An App that makes fun Effortless
+              </h1>
+              <p>
+                Finding new and exciting things to do is great, but having to
+                 plan and organise them is a chore. We want to make it easy
+                 for you to explore cities, plan new and exciting activities,
+                 and share them with your friends.
+              </p>
+            </div>
+            <div class ="headerForm">
+              <div class="formHeader">
+                <h3>
+                  Get access to our exclusive beta on launch
+                </h3>
+                <form id="gform" method="POST" action="" class="form">
+                <p class="field required half grey">
+                  <label class="label required" for="name">Name</label>
+                  <input class="text-input" id="name" name="name" required type="text" placeholder="Enter your name">
+                </p>
+                <p class="field required half grey">
+                  <label class="label" for="email">Email</label>
+                  <input class="text-input" id="email" name="email" required type="email" placeholder="Enter your email">
+                </p>
+                <p class="field">
+                  <input class='button buttonBlue' id="sendMessage" type='submit' value='Sign Up'>
+                </p>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Second Segment-->
+      <div class="secondSegment" id="secondSegment">
+        <div class="leftImage">
+          <img src="./images/BrowseApp.png" alt="" style="width: 100%">
+        </div>
+        <div class="rightText">
+          <h2>Browse by category, date, or search directly </h2>
+          <p>Explore amazing activities, on the dates that work best for you.
+            Search directly, or by category, and explore the best places to eat,
+             drink and go out in your city<p>
+        </div>
+
+      </div>
+
+      <!--Third Segment-->
+        <div class="thirdSegment" id="thirdSegment">
+
+          <div class="rightImage">
+            <img src="./images/Bookmark.png" alt="" style="width: 100%">
+          </div>
+          <div class="leftText">
+            <h2>Bookmark activities or save them in your Planner</h2>
+            <p>Add activities to your personal planner, or bookmark them and
+              come back to them later. See all the great things you've been up
+              to and easily review when you're feeling nostalgic.<p>
+          </div>
+        </div>
+
+        <!--Fourth Segment-->
+          <div class="secondSegment" id="fourthSegment">
+            <div class="leftImage">
+              <img src="./images/Friends.png" alt="" style="width: 100%">
+            </div>
+            <div class="rightText">
+              <h2>View your what friends have been up to</h2>
+              <p>We trust our friends recommendations the most. See the great
+                activities they've had doing doing, and save them to try out
+                yourself.<p>
+            </div>
+          </div>
+
+        <!--Fifth Segment-->
+        <div class="downloadBackground" a id="signUp">
+          <div class="downloadContent">
+            <h2 class="download">
+              Sign up for our Beta list
+            </h2>
+            <form id="gform" method="POST"
+            action=""
+            class="form">
+              <p class="field required half">
+                <label class="label required" for="name">Name</label>
+                <input class="text-input" id="name" name="name" required type="text" placeholder="Enter your name">
+              </p>
+              <p class="field required half">
+                <label class="label" for="email">Email</label>
+                <input class="text-input" id="email" name="email" required type="email" placeholder="Enter your email">
+              </p>
+              <p class='field'>
+                <input class='button buttonWhite' id="sendMessage" type='submit' value='Sign Up'>
+              </p>
+              <div style="display: none;" id="thankyou_message" >
+                <p>
+                  Thank you for submitting your email. We will get back to you soon.
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!--footer-->
+        <footer id="footer">
+            <a href="">Home</a>
+            <a href="./app.html">App</a>
+            <a href="">About Us</a>
+            <a href="">Get In Touch</a>
+            <a href="">Social Media</a>
+            <a href="">Jobs</a>
+        </footer>
+      </div>
+
+  <!--scripts-->
+
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script src="scripts/jsScripts.js">
+  </script>
+
+
+</body>
