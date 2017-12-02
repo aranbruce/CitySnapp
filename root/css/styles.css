@@ -552,6 +552,10 @@ div.nav{
   z-index: 1;
 }
 
+.logo {
+  height: 30px;
+}
+
 /*navBar*/
 div.topNav{
   padding-top: 40px;
