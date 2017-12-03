@@ -10,7 +10,6 @@
 
     //Change burger to 'x'
     document.getElementById("burger").classList.toggle("burgerContainerClose");
-    document.getElementById("burger").classList.toggle("burgerContainer");
 
     //hide elemensts when burger is open
     var hiddenOnOpenMenu = document.getElementsByClassName("hiddenOnOpenMenu")
@@ -20,7 +19,6 @@
 
     //Change background when mobile menu is open
     document.getElementById("bodyBackground").classList.toggle("menuOpen");
-    document.getElementById("firstSegment").classList.toggle("hideBackground");
   }
 
  //Smooth Scrolling for links
