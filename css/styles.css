@@ -337,6 +337,9 @@ html {
     float: left;
   }
 
+  #signUpApp {
+    display: none;
+  }
 
   div.headerImage{
     width: 280px;
