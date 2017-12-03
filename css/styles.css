@@ -166,9 +166,6 @@ html {
 
   .hide{
     display: none;
-  }
-
-  div#navAndFirstSegmentBackground.hideBackground{
     background-image: none;
   }
 
