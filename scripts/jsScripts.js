@@ -13,12 +13,10 @@
     document.getElementById("burger").classList.toggle("burgerContainer");
 
     //hide elemensts when burger is open
-    document.getElementById("firstSegment").classList.toggle("hide");
-    document.getElementById("secondSegment").classList.toggle("hide");
-    document.getElementById("thirdSegment").classList.toggle("hide");
-    document.getElementById("fourthSegment").classList.toggle("hide")
-    document.getElementById("signUp").classList.toggle("hide");
-    document.getElementById("footer").classList.toggle("hide");
+    var hiddenOnOpenMenu = document.getElementsByClassName("hiddenOnOpenMenu")
+    for (var i = 0; i < hiddenOnOpenMenu.length; i++) {
+      hiddenOnOpenMenu[i].classList.toggle("hide")
+      }
 
     //Change background when mobile menu is open
     document.getElementById("bodyBackground").classList.toggle("menuOpen");
