@@ -394,7 +394,7 @@ html {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1100px;
   }
 
   div.rightImage{
@@ -567,7 +567,7 @@ div.topNav{
   left: 10%;
   right: 10%;
   position: inherit;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
 }
 
@@ -614,7 +614,7 @@ div.firstSegment{
   height:555px;
   color: #ffffff;
   margin-top: 150px;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
   width: 80%;
 }
@@ -692,7 +692,7 @@ div.secondSegment{
   margin-top: 150px;
   margin-bottom: 150px;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1100px;
 }
 
 div.leftImage{
@@ -709,7 +709,7 @@ h2{
 div.thirdSegment{
   margin: auto;
   width: 80%;
-  max-width: 1200px;
+  max-width: 1100px;
 }
 
 /* Fourth Section */
@@ -722,7 +722,7 @@ div.downloadBackground{
   box-shadow: 0 5px 10px 0 #F9748F;
   margin-top: 100px;
   margin-bottom: 100px;
-  max-width: 1200px;
+  max-width: 1100px;
 }
 
 h2.download{
@@ -740,6 +740,12 @@ align-items: center;
 justify-content: center;
 }
 
+.rightText a {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-weight: 500;
+}
+
 /*Footer*/
 footer {
     margin: auto;
@@ -748,7 +754,7 @@ footer {
     overflow: auto;
     text-align: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1100px;
     border-top: 1px solid gray;
     padding-top:10px;
     padding-bottom: 10px;
