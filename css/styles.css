@@ -58,12 +58,6 @@ html {
   #bodyBackground {
     background-size: auto;
   }
-  #bodyBackground.bodyBackground.menuOpen {
-    background-image: none;
-    background: linear-gradient(315deg, #FE9A8B 0%, #FD868C 37.05%, #F9748F 77.56%, #F78CA0 100%);
-    background-repeat: no-repeat;
-    background-size: 100% 1500px;
-  }
 
   /*Header text on first Segment*/
   div.headerText{
@@ -176,6 +170,20 @@ html {
 
   div#navAndFirstSegmentBackground.hideBackground{
     background-image: none;
+  }
+
+  .menuOpen{
+    background-image: none;
+    background: linear-gradient(315deg, #FE9A8B 0%, #FD868C 37.05%, #F9748F 77.56%, #F78CA0 100%);
+    background-size: 1500px;
+    background-repeat: no-repeat;
+  }
+
+  #bodyBackground.bodyBackground.menuOpen {
+    background-image: none;
+    background: linear-gradient(315deg, #FE9A8B 0%, #FD868C 37.05%, #F9748F 77.56%, #F78CA0 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 1500px;
   }
 
   nav.right{
@@ -536,13 +544,6 @@ body {
   width: 100%;
   margin-left: 0;
   margin-right: 0;
-}
-
-.menuOpen{
-  background-image: none;
-  background: linear-gradient(315deg, #FE9A8B 0%, #FD868C 37.05%, #F9748F 77.56%, #F78CA0 100%);
-  background-size: 1500px;
-  background-repeat: no-repeat;
 }
 
 /*nav*/

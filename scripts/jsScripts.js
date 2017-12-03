@@ -2,16 +2,25 @@
 // Show and hide burger menu on Mobile
 
   function openCloseMenu() {
-    document.getElementById("firstSegment").classList.toggle("hide");
+    //hide mobile menu when it is closed
+    document.getElementById("Menu").classList.toggle("hide");
+
+    //show mobile menu when it is open
+    document.getElementById("Menu").classList.toggle("show");
+
+    //Change burger to 'x'
     document.getElementById("burger").classList.toggle("burgerContainerClose");
     document.getElementById("burger").classList.toggle("burgerContainer");
-    document.getElementById("Menu").classList.toggle("show");
-    document.getElementById("Menu").classList.toggle("hide");
+
+    //hide elemensts when burger is open
+    document.getElementById("firstSegment").classList.toggle("hide");
     document.getElementById("secondSegment").classList.toggle("hide");
     document.getElementById("thirdSegment").classList.toggle("hide");
     document.getElementById("fourthSegment").classList.toggle("hide")
     document.getElementById("signUp").classList.toggle("hide");
     document.getElementById("footer").classList.toggle("hide");
+
+    //Change background when mobile menu is open
     document.getElementById("bodyBackground").classList.toggle("menuOpen");
     document.getElementById("firstSegment").classList.toggle("hideBackground");
   }
