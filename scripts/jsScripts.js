@@ -1,7 +1,7 @@
   <!--scripts-->
 // Show and hide burger menu on Mobile
 
-  function myFunction() {
+  function openCloseMenu() {
     document.getElementById("firstSegment").classList.toggle("hide");
     document.getElementById("burger").classList.toggle("burgerContainerClose");
     document.getElementById("burger").classList.toggle("burgerContainer");
