@@ -52,7 +52,7 @@
 $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
-	  if (scroll > 100) {
+	  if (scroll > 80) {
 	    $("g#Homepage").css("fill" , "#4A4A4A");
       $(".topNav a").css("color", "#4A4A4A");
       $(".bar1").css("background-color", "#4A4A4A");
