@@ -53,23 +53,20 @@ $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
 	  if (scroll > 80) {
-	    $("g#Homepage").css("fill" , "#4A4A4A");
-      $(".topNav a").css("color", "#4A4A4A");
-      $(".bar1").css("background-color", "#4A4A4A");
-      $(".bar2").css("background-color", "#4A4A4A");
-      $(".bar3").css("background-color", "#4A4A4A");
-      $(".nav").css("background", "white");
-      $(".nav").css("box-shadow", "0 5px 10px rgba(155, 155, 155, 0.5)");
-	  }
-
-	  else{
-      $("g#Homepage").css("fill" , "white");
-      $(".topNav a").css("color" , "white");
-      $(".bar1").css("background-color", "white");
-      $(".bar2").css("background-color", "white");
-      $(".bar3").css("background-color", "white");
-      $(".nav").css("background", "none");
-      $(".nav").css("box-shadow", "none");
-	  }
+      $(".navItem").addClass("darkGrey");
+      $(".logo").addClass("fillDarkGrey");
+      $(".nav").addClass("whiteBackground");
+      $(".bar1").addClass("greyBackground");
+      $(".bar2").addClass("greyBackground");
+      $(".bar3").addClass("greyBackground");
+    }
+    else {
+      $(".navItem").removeClass("darkGrey");
+      $(".logo").removeClass("fillDarkGrey");
+      $(".nav").removeClass("whiteBackground");
+      $(".bar1").removeClass("greyBackground");
+      $(".bar2").removeClass("greyBackground");
+      $(".bar3").removeClass("greyBackground");
+    }
   })
 })
