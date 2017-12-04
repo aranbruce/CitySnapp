@@ -210,6 +210,10 @@ html {
       transition: 0.4s;
     }
 
+  .greyBackground {
+    background-color: #4A4A4A;
+  }
+
   .burgerContainerClose .bar1 {
       -webkit-transform: rotate(-45deg) translate(-8px, 6px) ;
       transform: rotate(-45deg) translate(-8px, 6px) ;
@@ -572,6 +576,11 @@ div.nav{
   z-index: 1;
 }
 
+.whiteBackground {
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(155, 155, 155, 0.5);
+}
+
 /*navBar*/
 div.topNav{
   padding-top: 40px;
@@ -612,16 +621,36 @@ nav.right {
   right: 0%;
 }
 
-nav.right a:link {
+a.navItem {
   color: white;
   margin-left: 7%;
   padding-bottom: 10px;
 }
-nav.right a:hover{
+a.navItem:hover{
   color: rgba(255, 255, 255, 0.7);
   /*border-bottom: solid 1px rgba(255, 255, 255, 0.7);*/
   display: inline;
   padding-bottom: 5px;
+}
+
+a.navItem.darkGrey {
+  color: #4A4A4A;
+}
+
+a.navItem.darkGrey:hover {
+  color: rgba(74,74,74, 0.8);
+}
+
+.logo:hover {
+  fill: rgba(255, 255, 255, 0.7);
+}
+
+.fillDarkGrey {
+  fill: #4A4A4A;
+}
+
+.fillDarkGrey:hover {
+  fill: rgba(74,74,74, 0.8);
 }
 
 /*firstSegment*/
